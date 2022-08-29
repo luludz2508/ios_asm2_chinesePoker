@@ -1,9 +1,13 @@
-//
-//  Asm2_ios_rmitApp.swift
-//  Asm2-ios-rmit
-//
-//  Created by Luu Mai Huong on 13/08/2022.
-//
+/*
+ RMIT University Vietnam
+ Course: COSC2659 iOS Development
+ Semester: 2022B
+ Assessment: Assignment 2
+ Author: Nguyen Thanh Luan
+ ID: s3757937
+ Created  date: 14/08/2022
+ Last modified: 29/08/2022
+ */
 
 import SwiftUI
 
@@ -11,7 +15,7 @@ import SwiftUI
 struct Asm2_ios_rmitApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().preferredColorScheme(.dark)
         }
     }
 }

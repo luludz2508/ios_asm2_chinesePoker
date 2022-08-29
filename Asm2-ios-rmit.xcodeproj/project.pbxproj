@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B322FE4F28AAD44100BD3DAA /* CardBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B322FE4E28AAD44100BD3DAA /* CardBackView.swift */; };
+		B32B108F28AE2B3000D994CE /* DivideCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32B108E28AE2B3000D994CE /* DivideCardView.swift */; };
+		B3302EEB28BCC1AB006F0F73 /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3302EEA28BCC1AB006F0F73 /* GameData.swift */; };
+		B3302EEF28BCDEAD006F0F73 /* gameMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B3302EED28BCDEAD006F0F73 /* gameMusic.mp3 */; };
+		B3302EF028BCDEAD006F0F73 /* menuMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B3302EEE28BCDEAD006F0F73 /* menuMusic.mp3 */; };
+		B3302EF328BCDEBE006F0F73 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = B3302EF128BCDEBE006F0F73 /* win.wav */; };
+		B3302EF428BCDEBE006F0F73 /* lose.wav in Resources */ = {isa = PBXBuildFile; fileRef = B3302EF228BCDEBE006F0F73 /* lose.wav */; };
+		B3302EF628BCDECD006F0F73 /* SoundService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3302EF528BCDECD006F0F73 /* SoundService.swift */; };
+		B3302EF828BCFCD0006F0F73 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3302EF728BCFCD0006F0F73 /* LoginView.swift */; };
+		B3302EFA28BCFD86006F0F73 /* LeaderBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3302EF928BCFD86006F0F73 /* LeaderBoardView.swift */; };
+		B3302EFC28BCFEDE006F0F73 /* HowToPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3302EFB28BCFEDE006F0F73 /* HowToPlayView.swift */; };
+		B3302EFF28BCFF6B006F0F73 /* LeaderBoardCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3302EFE28BCFF6B006F0F73 /* LeaderBoardCard.swift */; };
+		B3309F6D28B382B50063CD2A /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3309F6C28B382B50063CD2A /* ArrayExtension.swift */; };
+		B33C76A128B678F40016FF85 /* AiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33C76A028B678F40016FF85 /* AiService.swift */; };
+		B33D242A28BB447500D14E06 /* PlayerInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33D242928BB447500D14E06 /* PlayerInfoView.swift */; };
+		B33D242C28BB44DB00D14E06 /* GameBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33D242B28BB44DB00D14E06 /* GameBackgroundView.swift */; };
+		B33D242E28BBA0E200D14E06 /* ResultServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33D242D28BBA0E200D14E06 /* ResultServices.swift */; };
+		B33D243028BBEF6F00D14E06 /* HandsResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33D242F28BBEF6F00D14E06 /* HandsResultView.swift */; };
 		B347E24728A79C3F00346249 /* Asm2_ios_rmitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B347E24628A79C3F00346249 /* Asm2_ios_rmitApp.swift */; };
 		B347E24928A79C3F00346249 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B347E24828A79C3F00346249 /* ContentView.swift */; };
 		B347E24B28A79C4100346249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B347E24A28A79C4100346249 /* Assets.xcassets */; };
@@ -16,9 +34,32 @@
 		B347E25928A904B800346249 /* HandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B347E25828A904B800346249 /* HandView.swift */; };
 		B347E25B28A904C500346249 /* DisplayHandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B347E25A28A904C500346249 /* DisplayHandView.swift */; };
 		B347E25E28A9476200346249 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B347E25D28A9476200346249 /* Card.swift */; };
+		B35725ED28BA3159002D803B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35725EC28BA3159002D803B /* Player.swift */; };
+		B35725F128BA4325002D803B /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35725F028BA4325002D803B /* Game.swift */; };
+		B35725F328BA7C64002D803B /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35725F228BA7C64002D803B /* MenuView.swift */; };
+		B3EC0AC728B2AF2000184163 /* HandService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EC0AC628B2AF2000184163 /* HandService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B322FE4E28AAD44100BD3DAA /* CardBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBackView.swift; sourceTree = "<group>"; };
+		B32B108E28AE2B3000D994CE /* DivideCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivideCardView.swift; sourceTree = "<group>"; };
+		B3302EEA28BCC1AB006F0F73 /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
+		B3302EED28BCDEAD006F0F73 /* gameMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameMusic.mp3; sourceTree = "<group>"; };
+		B3302EEE28BCDEAD006F0F73 /* menuMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = menuMusic.mp3; sourceTree = "<group>"; };
+		B3302EF128BCDEBE006F0F73 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		B3302EF228BCDEBE006F0F73 /* lose.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lose.wav; sourceTree = "<group>"; };
+		B3302EF528BCDECD006F0F73 /* SoundService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundService.swift; sourceTree = "<group>"; };
+		B3302EF728BCFCD0006F0F73 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B3302EF928BCFD86006F0F73 /* LeaderBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardView.swift; sourceTree = "<group>"; };
+		B3302EFB28BCFEDE006F0F73 /* HowToPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlayView.swift; sourceTree = "<group>"; };
+		B3302EFE28BCFF6B006F0F73 /* LeaderBoardCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardCard.swift; sourceTree = "<group>"; };
+		B3302F0028BD1FEF006F0F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B3309F6C28B382B50063CD2A /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		B33C76A028B678F40016FF85 /* AiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiService.swift; sourceTree = "<group>"; };
+		B33D242928BB447500D14E06 /* PlayerInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerInfoView.swift; sourceTree = "<group>"; };
+		B33D242B28BB44DB00D14E06 /* GameBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBackgroundView.swift; sourceTree = "<group>"; };
+		B33D242D28BBA0E200D14E06 /* ResultServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultServices.swift; sourceTree = "<group>"; };
+		B33D242F28BBEF6F00D14E06 /* HandsResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandsResultView.swift; sourceTree = "<group>"; };
 		B347E24328A79C3F00346249 /* Asm2-ios-rmit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Asm2-ios-rmit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B347E24628A79C3F00346249 /* Asm2_ios_rmitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asm2_ios_rmitApp.swift; sourceTree = "<group>"; };
 		B347E24828A79C3F00346249 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -29,6 +70,10 @@
 		B347E25828A904B800346249 /* HandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandView.swift; sourceTree = "<group>"; };
 		B347E25A28A904C500346249 /* DisplayHandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayHandView.swift; sourceTree = "<group>"; };
 		B347E25D28A9476200346249 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		B35725EC28BA3159002D803B /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		B35725F028BA4325002D803B /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		B35725F228BA7C64002D803B /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		B3EC0AC628B2AF2000184163 /* HandService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +87,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B3302EEC28BCD8B2006F0F73 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				B3302EF228BCDEBE006F0F73 /* lose.wav */,
+				B3302EF128BCDEBE006F0F73 /* win.wav */,
+				B3302EED28BCDEAD006F0F73 /* gameMusic.mp3 */,
+				B3302EEE28BCDEAD006F0F73 /* menuMusic.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		B3302EFD28BCFF61006F0F73 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B3302EFE28BCFF6B006F0F73 /* LeaderBoardCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B3309F6B28B3829F0063CD2A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B3309F6C28B382B50063CD2A /* ArrayExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B33D242828BB42F000D14E06 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B347E24828A79C3F00346249 /* ContentView.swift */,
+				B347E25428A79C5900346249 /* GameView.swift */,
+				B32B108E28AE2B3000D994CE /* DivideCardView.swift */,
+				B347E25628A8F44100346249 /* CardFrontView.swift */,
+				B35725F228BA7C64002D803B /* MenuView.swift */,
+				B322FE4E28AAD44100BD3DAA /* CardBackView.swift */,
+				B347E25828A904B800346249 /* HandView.swift */,
+				B347E25A28A904C500346249 /* DisplayHandView.swift */,
+				B33D242928BB447500D14E06 /* PlayerInfoView.swift */,
+				B33D242B28BB44DB00D14E06 /* GameBackgroundView.swift */,
+				B33D242F28BBEF6F00D14E06 /* HandsResultView.swift */,
+				B3302EF728BCFCD0006F0F73 /* LoginView.swift */,
+				B3302EF928BCFD86006F0F73 /* LeaderBoardView.swift */,
+				B3302EFB28BCFEDE006F0F73 /* HowToPlayView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		B347E23A28A79C3F00346249 = {
 			isa = PBXGroup;
 			children = (
@@ -61,15 +154,16 @@
 		B347E24528A79C3F00346249 /* Asm2-ios-rmit */ = {
 			isa = PBXGroup;
 			children = (
+				B3302F0028BD1FEF006F0F73 /* Info.plist */,
+				B3302EFD28BCFF61006F0F73 /* Components */,
+				B33D242828BB42F000D14E06 /* View */,
+				B3309F6B28B3829F0063CD2A /* Extension */,
+				B3EC0ACA28B2B57C00184163 /* Services */,
 				B347E25C28A9474C00346249 /* Models */,
 				B347E24628A79C3F00346249 /* Asm2_ios_rmitApp.swift */,
-				B347E24828A79C3F00346249 /* ContentView.swift */,
 				B347E24A28A79C4100346249 /* Assets.xcassets */,
 				B347E24C28A79C4100346249 /* Preview Content */,
-				B347E25428A79C5900346249 /* GameView.swift */,
-				B347E25628A8F44100346249 /* CardFrontView.swift */,
-				B347E25828A904B800346249 /* HandView.swift */,
-				B347E25A28A904C500346249 /* DisplayHandView.swift */,
+				B3302EEC28BCD8B2006F0F73 /* Sounds */,
 			);
 			path = "Asm2-ios-rmit";
 			sourceTree = "<group>";
@@ -86,8 +180,22 @@
 			isa = PBXGroup;
 			children = (
 				B347E25D28A9476200346249 /* Card.swift */,
+				B35725EC28BA3159002D803B /* Player.swift */,
+				B35725F028BA4325002D803B /* Game.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		B3EC0ACA28B2B57C00184163 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B3302EEA28BCC1AB006F0F73 /* GameData.swift */,
+				B3EC0AC628B2AF2000184163 /* HandService.swift */,
+				B33C76A028B678F40016FF85 /* AiService.swift */,
+				B33D242D28BBA0E200D14E06 /* ResultServices.swift */,
+				B3302EF528BCDECD006F0F73 /* SoundService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +257,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B347E24E28A79C4100346249 /* Preview Assets.xcassets in Resources */,
+				B3302EF028BCDEAD006F0F73 /* menuMusic.mp3 in Resources */,
+				B3302EEF28BCDEAD006F0F73 /* gameMusic.mp3 in Resources */,
+				B3302EF428BCDEBE006F0F73 /* lose.wav in Resources */,
+				B3302EF328BCDEBE006F0F73 /* win.wav in Resources */,
 				B347E24B28A79C4100346249 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,13 +272,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3302EFC28BCFEDE006F0F73 /* HowToPlayView.swift in Sources */,
+				B33D242C28BB44DB00D14E06 /* GameBackgroundView.swift in Sources */,
+				B3EC0AC728B2AF2000184163 /* HandService.swift in Sources */,
+				B33C76A128B678F40016FF85 /* AiService.swift in Sources */,
 				B347E25728A8F44100346249 /* CardFrontView.swift in Sources */,
+				B33D242A28BB447500D14E06 /* PlayerInfoView.swift in Sources */,
 				B347E24928A79C3F00346249 /* ContentView.swift in Sources */,
+				B33D242E28BBA0E200D14E06 /* ResultServices.swift in Sources */,
 				B347E25E28A9476200346249 /* Card.swift in Sources */,
+				B3302EF828BCFCD0006F0F73 /* LoginView.swift in Sources */,
+				B3302EEB28BCC1AB006F0F73 /* GameData.swift in Sources */,
+				B35725ED28BA3159002D803B /* Player.swift in Sources */,
+				B3302EFA28BCFD86006F0F73 /* LeaderBoardView.swift in Sources */,
+				B322FE4F28AAD44100BD3DAA /* CardBackView.swift in Sources */,
 				B347E25B28A904C500346249 /* DisplayHandView.swift in Sources */,
 				B347E25528A79C5900346249 /* GameView.swift in Sources */,
+				B35725F128BA4325002D803B /* Game.swift in Sources */,
+				B3302EFF28BCFF6B006F0F73 /* LeaderBoardCard.swift in Sources */,
+				B35725F328BA7C64002D803B /* MenuView.swift in Sources */,
 				B347E25928A904B800346249 /* HandView.swift in Sources */,
+				B3302EF628BCDECD006F0F73 /* SoundService.swift in Sources */,
+				B32B108F28AE2B3000D994CE /* DivideCardView.swift in Sources */,
 				B347E24728A79C3F00346249 /* Asm2_ios_rmitApp.swift in Sources */,
+				B33D243028BBEF6F00D14E06 /* HandsResultView.swift in Sources */,
+				B3309F6D28B382B50063CD2A /* ArrayExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,25 +422,28 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Asm2-ios-rmit/Preview Content\"";
 				DEVELOPMENT_TEAM = NP8BSTQJH7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Asm2-ios-rmit/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Luludz.Asm2-ios-rmit";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Asm2-ios-rmit";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,25 +455,28 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Asm2-ios-rmit/Preview Content\"";
 				DEVELOPMENT_TEAM = NP8BSTQJH7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Asm2-ios-rmit/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Luludz.Asm2-ios-rmit";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Asm2-ios-rmit";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
